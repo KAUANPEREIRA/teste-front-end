@@ -109,6 +109,8 @@ li{
      top:0;
      width: 100%;
     left: 0;
+    background-color: white;
+    border-radius: 0px 0px 30px 30px;
  }
 
    /*----- media queries tablets -----*/
