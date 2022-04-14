@@ -1,0 +1,163 @@
+.headerP1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+ul{ margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex; 
+    font-size: 12px;
+    font-weight: 600;
+}
+
+li{
+    margin-left: 121px;
+    color: #9F9F9F;
+}
+
+.colorIcon{
+    color: #9F9F9F;
+    font-size: 18px;
+}
+
+.linha{
+    border: 1px solid #F0F0F0;
+    width: 100%;
+}
+
+.headerP2{
+    display: flex;
+}
+
+.logo{
+    margin-top: 13px;
+    margin-left: 60px;
+}
+
+.campoBusca{
+    width:657px;
+    height: 48px;
+    background-color: #FEF6E7;
+    margin-top: 13px;
+    border-radius: 10px 10px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.campoBusca input{
+    background-color: #FEF6E7;
+    font-family: "Poppins", sans-serif;
+    width:470px;
+    text-align: center;
+   align-items: center;
+
+}
+
+.lupa{
+    font-size: 25px;
+   margin-top: 10px;
+   margin-left: 130px;
+   
+}
+
+.importEnd{
+    font-size: 20px;
+ 
+    margin-left: 61px;
+
+}
+
+.heart {
+    font-size: 22px;
+    margin-top: 26px;
+    margin-left: 35px;
+}
+
+
+.user {
+    font-size: 25px;
+    margin-top: 26px;
+    margin-left: 35px;
+}
+.iconsEnd{
+    margin-bottom: 12px;
+}
+
+.headerP3{
+    display: flex;
+}
+ ol{
+     display: flex;
+ }
+
+ ol li{
+     font-size: 12px;
+     margin-left: 79px;
+     margin-top: 11px;
+
+ }
+
+ ol li:hover{
+     color:#FBB900;
+     cursor: pointer;
+ }
+
+ .headerAuxiliar{
+     position: fixed;
+     margin: auto;
+     top:0;
+     width: 100%;
+    left: 0;
+ }
+
+   /*----- media queries tablets -----*/
+@media screen and (max-width:1024px) {
+
+    .headerP1{
+        display: none;
+    }
+    .logo{
+        display:none;
+    }
+    .headerP3{
+        display: none;
+    }
+    .iconsEnd{
+        display: none;
+    }
+    
+
+    
+}
+
+/*----- media queries celulares -----*/
+@media screen and (max-width:600px) {
+
+    .headerP1{
+        display: none;
+    }
+    .logo{
+        display:none;
+    }
+    .headerP3{
+        display: none;
+    }
+    .iconsEnd{
+        display: none;
+    }
+
+    .lupa{
+        margin-left: 5px;
+        
+    }
+
+    .campoBusca{
+        width: 250px;
+        margin-bottom: 10px;
+    }
+   
+}
+
+
+
