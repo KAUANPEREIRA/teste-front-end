@@ -95,6 +95,7 @@ li{
      font-size: 12px;
      margin-left: 79px;
      margin-top: 11px;
+     margin-bottom: 5px;
 
  }
 
@@ -135,6 +136,16 @@ li{
 
 /*----- media queries celulares -----*/
 @media screen and (max-width:600px) {
+
+    .headerP2{
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .linha{
+        display: none;
+    }
 
     .headerP1{
         display: none;

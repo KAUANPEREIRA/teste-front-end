@@ -1,0 +1,112 @@
+.titleCategorias{
+    font-size: 32px;
+    font-weight: 700;
+    color:#4D4D4D;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.cardImg{
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+.meusCards{
+    display: flex;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.cardNome{
+    font-weight: 500;
+    font-size: 16px;
+   text-align: center;
+   margin-top: 16px;
+   color: #9F9F9F;
+}
+
+
+.cardsSetas{
+    width: 100vw;
+    height: 35px;
+    margin-top: 140px;
+   
+}
+
+.setaEsquerda{
+    background-color:#ffffff;
+    margin-left: -1185px;
+
+    font-size: 100px;
+    width: 31px;
+    height: 31px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.setaDireita{
+    background-color:#ffffff;
+    margin-left: 1140px;
+    margin-top: 10px;
+    font-size: 100px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+@media screen and (max-width:1024px) {
+
+
+
+  
+      
+  
+      
+}
+
+/*----- media queries celulares -----*/
+@media screen and (max-width:600px) {
+
+ 
+      
+
+  .meusCards{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .card{
+        margin-top: 35px;
+        margin-left: -227px;
+  }
+
+    .titleCategorias{
+        margin-bottom: 135px;
+        text-align: center;
+    }
+
+    .categorias{
+     
+    }
+
+    .meusCards > :first-child {
+      margin-top: 300px;
+      }
+
+      .cardsSetas{
+          display:none;
+      }
+  
+
+
+}
+
+
+

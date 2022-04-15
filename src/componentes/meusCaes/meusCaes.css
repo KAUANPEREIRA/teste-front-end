@@ -1,0 +1,115 @@
+
+.titleMCaes{
+    font-size: 32px;
+    font-weight: 700;
+    color:#4D4D4D;
+    margin-top: 80px;
+    margin-left: 15px;
+    width: 400px;
+}
+
+.meusCaes{
+    display: flex;
+    
+}
+
+.conteudoDireita{
+    width: 430px;
+    
+}
+
+.btnActive{
+    background-color: #FBB900;
+    color: #ffffff !important;
+}
+
+.conteudoEsquerda{
+    
+    display: flex;
+    margin-left: 49px;
+    width: 810px;
+}
+
+.btns{
+    margin-top: 80px;
+    border: 1px solid #E5E5E5;
+    margin-left: 20px;
+    min-width: 115px;
+    height: 40px;
+    border-radius: 6px;
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight:700;
+    padding: 7px;
+    cursor: pointer;
+
+}
+
+.caesSetas{
+width: 100vw;
+height: 35px;
+margin-top: 90px;
+}
+
+.caesEsquerdas{
+    border: 2px ;
+    color:#FBB900;
+    font-size: 24px;
+    margin-left: -688px;
+}
+
+.caesDireita{
+    border: 2px;
+    color:#FBB900;
+    font-size: 23px;
+    margin-left: 664px;
+}
+
+.btns:hover{
+    background-color: #FBB900;
+    color: #ffffff !important;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .btns{
+        margin-top: 20px;
+    }
+
+.titleMCaes{
+    font-size: 25px;
+    margin-left: 5px
+}
+
+
+.caesSetas{
+    display:none;
+
+}
+
+.conteudoEsquerda{
+    position: absolute;
+    margin-top: 350px;
+    width: 250px;
+    display: flex;
+    margin-left: -2px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.conteudoDireita{
+    
+    max-width: 200px;
+}
+
+
+.meusCaes{
+    max-width: 300px;
+   overflow-x: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+}

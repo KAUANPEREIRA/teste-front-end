@@ -43,14 +43,14 @@ const Header = () => {
           <div className='linha'></div>
           <div className='headerP3 container'>
               <ol>
-                  <li>Brincar</li>
-                  <li>morder</li>
-                  <li>comer</li>
-                  <li>passear</li>
-                  <li>casa e conforto</li>
-                  <li>educação</li>
-                  <li><span>ofertas</span></li>
-                  <li>coleção outono</li>
+                  <li>BRINCAR</li>
+                  <li>MORDER</li>
+                  <li>COMER</li>
+                  <li>PASSEAR</li>
+                  <li>CASA E CONFORTO</li>
+                  <li>EDUCAÇÃO</li>
+                  <li><span>OFERTAS</span></li>
+                  <li>COLEÇAO OUTONO</li>
               </ol>
           </div>
           </div>
