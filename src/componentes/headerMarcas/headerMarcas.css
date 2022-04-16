@@ -1,0 +1,43 @@
+.MeuTitleHeader{
+    font-size: 32px;
+    font-weight: 700;
+    color:#4D4D4D;
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 400px;
+}
+.headerMarcas{
+    display: flex;
+}
+
+.visulalize{
+    margin-top: 93px;
+    margin-left: 700px;
+}
+.vtodosHeader{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .headerEsquerda{display: none;}
+
+    .MeuTitleHeader{ font-size: 18px;
+    min-width: 280px;
+    margin-left: 30px;
+    }
+
+    .headerDireita{
+    max-width: 200px;
+    }
+    .headerMarcas{
+        max-width: 300px;
+        overflow-x: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    }
+
+}

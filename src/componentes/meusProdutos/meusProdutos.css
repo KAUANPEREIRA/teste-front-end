@@ -156,6 +156,58 @@
    
 }
 
+.visualizarMais{
+    text-align: center;
+    margin-top: 32px;
+}
+.vMais{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.slider-pointer{
+    width: 100vw;
+    height: 15px;
+   
+    position: absolute;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer{
+    width: 12px;
+    height: 12px;
+    border: 2px solid #9F9F9F;
+    border-radius: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.pointer.active{
+    background-color: #9F9F9F;
+}
 @media screen and (max-width:600px) {
     .mbotes{display: none;}
+    .vMais{
+        margin-left: 63px;
+    }
+    .carousel{
+        overflow-x: hidden;
+        
+    }
+
+    .meuCard{
+        margin-left: -50px;
+    }
+    .btnImg{
+        display: none;
+    }
+    .btnComprar{
+        margin-left: 24px;
+    }
+
 }

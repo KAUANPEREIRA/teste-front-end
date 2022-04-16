@@ -5,7 +5,7 @@ import {IoIosArrowForward} from 'react-icons/io'
 import {IoIosArrowBack} from 'react-icons/io'
 import Chukit from '../../assets/chuckit.png'
 import {BsHeart} from 'react-icons/bs'
-import Modal from '../Modal'
+import Modal from '../modal/Modal'
 
 
 const MeusProdutos = () => {
@@ -82,7 +82,21 @@ const MeusProdutos = () => {
             <IoIosArrowForward  className="clickLeft"onClick={handleLeftClick}/>
             <IoIosArrowBack className='clickRight' onClick={handleRigthClick}/>
         </div>
-        {isModalVisible ?<Modal/>:null}
+        <div className='visualizarMais container'>
+            <span className='vMais'>Ver mais...</span>
+        </div>
+        <div className='slider-pointer'>
+              <div className='pointer active'></div>
+              <div className='pointer'></div>
+              <div className='pointer'></div>
+              <div className='pointer'></div>
+              <div className='pointer'></div>
+
+            </div>
+        {isModalVisible ?(
+        <Modal onClose={()=>setIsModalVisible(false)}/>
+        
+        ):null}
     </div>  
 )
 
