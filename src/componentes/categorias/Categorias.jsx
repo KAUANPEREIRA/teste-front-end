@@ -32,9 +32,8 @@ const Categorias = () => {
                 <span className='cardNome'>Higiene</span>
             </div>
             <div className='cardsSetas'>
-                <MdKeyboardArrowLeft className='setaEsquerda'/><MdKeyboardArrowRight className='setaDireita'/>
-                
-        </div>
+                <MdKeyboardArrowLeft className='setaEsquerda'/><MdKeyboardArrowRight className='setaDireita'/>    
+            </div>
         </div>
         
     </section>

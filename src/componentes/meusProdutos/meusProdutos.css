@@ -1,0 +1,161 @@
+.meusCards{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding: 30px;
+}
+.meuCard{
+    height: 500px;
+  
+    margin-left:43px;
+    min-width: 250px;
+   
+
+}
+
+.mbotes{
+    cursor: pointer;
+    margin-top: -200px;
+    position:absolute;
+}
+.clickLeft{
+    margin-left: 1255px;
+    height: 30px;
+    width:30px;
+    border-radius:15px;
+    background-color: #ffffff;
+    box-shadow: 0.5, 0.5 , 0.5 black;
+}
+
+.clickRight{
+    margin-left: -1167px;
+    height: 29px;
+    width:29px;
+    border-radius:14px;
+    background-color: #ffffff;
+    box-shadow: 0.5, 0.5 , 0.5 black;
+
+}
+
+.imagem{
+    max-width: 180px;
+    height: 180px;
+    margin-left: 35px;
+}
+
+.btnImg{
+    min-width: 100px;
+    height: 40px;
+    font-weight: 700;
+    color: #FBB900;
+    background-color:#FEF6E7;
+    padding: 10px;
+    font-size: 14px;
+    border-radius:10px;
+    margin-top: -185px;
+    margin-left: -15px;
+   
+    display: flex;
+    cursor: pointer;
+}
+
+.heartCard{
+    min-width:25px;
+    height: 22px;
+    color:#9F9F9F;
+    border: 2px;
+    margin-left: 130px;
+    margin-top: -185px !important;
+  
+    cursor: pointer;
+}
+
+.extensoes{
+    display: flex;
+}
+
+.produtoApi{
+    font-size: 14px;
+    font-weight: 300;
+    width: 150;
+    height: 42px;
+    color:#4D4D4D;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meuspan1{
+    width: 100px;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 74px;
+}
+
+.PriceCortado{
+    font-weight: 400;
+    font-size: 16px;
+    color:#9F9F9F;
+    text-decoration-line: line-through;
+   
+}
+
+.linhaCorte{
+    margin-top: 34px;
+    text-align: center;
+}
+
+.priceOrigin{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4D4D4D;
+
+}
+
+.PriceAtual{
+    margin-top: 5px;
+    text-align: center;
+ 
+}
+
+.desconto{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FBB900;
+}
+
+.priceDescont{
+    text-align: center;
+}
+
+.assinantes{
+    font-weight: 600;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+.priceAssinantes{
+    text-align: center;
+}
+
+.btnComprar{
+    width: 220px;
+    height: 48px;
+    background-color: #FBB900;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.ligth{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 16px;
+   
+}
+
+@media screen and (max-width:600px) {
+    .mbotes{display: none;}
+}

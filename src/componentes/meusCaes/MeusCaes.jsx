@@ -1,16 +1,25 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import './meusCaes.css'
 import axios from "axios"
 import {MdKeyboardArrowLeft} from "react-icons/md"
 import {MdKeyboardArrowRight} from "react-icons/md"
+import api from '../../api'
 
-const baseUrl ='https://app.econverse.com.br/teste-front-end/junior/caoselheiro/lista-produtos/produtos.json'
+
+
+
+
+
 
 
 const MeusCaes = () => {
 
     
+ 
   return (
+
+    
+
     <section className='container'>
         <div className="meusCaes">
             <div className='conteudoDireita'>
@@ -41,8 +50,7 @@ const MeusCaes = () => {
                 </div>
 
             </div>
-       </div>
-       
+       </div> 
     </section>
   )
 }
