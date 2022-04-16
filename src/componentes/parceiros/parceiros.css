@@ -1,0 +1,105 @@
+.parceiros{
+    display: flex;
+    
+}
+.parceirosDireita{
+    background-color: red;
+    width: 100%;
+   
+}
+
+.parceirosEsquerda{
+    background-color: blue;
+    width:740px;
+    height: 503px;
+}
+
+.retanguloImg{
+    max-width: 574px;
+    height: 350px;
+    background-image: url(../../assets/image45.png);
+    border-radius: 20px;
+    margin-top: 130px;
+    margin-left: 130px;
+}
+
+.efeito{
+width: 574px;
+height: 284px;
+
+
+}
+
+.propriedades{
+    margin-left:165px;
+    margin-top: -220px;
+}
+
+.paceirosNome{
+    color: #ffff;
+}
+
+.loremParagro{
+    width:181px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btnPropiedades{
+    width: 131px;
+    height: 48px;
+    border: 1px solid #F0D075;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: #FBB900;
+    color: #ffff;
+    padding: 10px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.meuEfeito{
+    max-width: 480px;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 105.04%);
+    margin-top: -36px;
+    border-radius: 10px;
+    margin-left: -35px;
+}
+
+.slider-pointerParceiros{
+    width: 100vw;
+    height: 15px;
+   
+    position: absolute;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-500px;
+}
+
+.pointer{
+    width: 12px;
+    height: 12px;
+    border: 2px solid #9F9F9F;
+    border-radius: 6px;
+    margin-left: 5;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.retanguloPrincipal{
+    width: 630px;
+    height: 350px;
+    background-color: #FEF6E7;
+    border-radius: 20px 0px 0px 20px;
+}
+
+@media screen and (max-width:600px) {
+    .slider-pointerParceiros{display: none;}
+
+}

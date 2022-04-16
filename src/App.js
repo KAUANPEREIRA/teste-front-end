@@ -7,6 +7,7 @@ import MeusCaes from "./componentes/meusCaes/MeusCaes";
 import MeusProdutos from "./componentes/meusProdutos/MeusProdutos";
 import HeaderMarcas from "./componentes/headerMarcas/HeaderMarcas";
 import PrincipaisMarcas from "./componentes/principaisMarcas/PrincipaisMarcas";
+import Parceiros from "./componentes/parceiros/Parceiros";
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
       <MeusProdutos/>
       <HeaderMarcas/>
       <PrincipaisMarcas/>
+      <Parceiros/>
       
 
 
