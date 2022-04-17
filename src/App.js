@@ -9,6 +9,7 @@ import HeaderMarcas from "./componentes/headerMarcas/HeaderMarcas";
 import PrincipaisMarcas from "./componentes/principaisMarcas/PrincipaisMarcas";
 import Parceiros from "./componentes/parceiros/Parceiros";
 import NossoBlog from "./componentes/nossoBlog/NossoBlog"
+import Sociais from "./componentes/socias/Sociais";
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
       <PrincipaisMarcas/>
       <Parceiros/>
       <NossoBlog/>
+      <Sociais/>
       
 
 
