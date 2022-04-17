@@ -1,5 +1,6 @@
 import React from 'react'
 import './parceiros.css'
+import IMGCao from '../../assets/cao.png'
 
 const Parceiros = () => {
   return (
@@ -29,8 +30,23 @@ const Parceiros = () => {
       </div>
       <div className='parceirosDireita'>
           <div className='retanguloPrincipal'>
+              <div className='textoEsquerda'>
+                  <h1 className='caoselheiro'>Assinatura cãoselheiro</h1>
+                  <p className='paragrafoCaoselheiro'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor adipiscing quis non sed.
+                  </p>
+                  <div className='btnCaoselheiro'>
+                     SAIBA MAIS
+                  </div>
 
-              
+
+              </div>
+              <div className='imagemDireita'>
+                  <img src={IMGCao} className="imagemVasada"/>
+
+              </div>
+
+
 
           </div>
           

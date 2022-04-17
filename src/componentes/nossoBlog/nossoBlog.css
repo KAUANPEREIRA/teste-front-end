@@ -1,0 +1,311 @@
+.meusCardsBlog{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding: 30px;
+}
+.meuCardBlog{
+    height: 500px;
+    
+    margin-left:10px;
+    min-width: 281px;
+    border-radius: 10px;
+    border-radius: 20px 20px  0px 0px !important;
+   
+
+}
+
+.mbotesBlog{
+    cursor: pointer;
+    margin-top: -386px;
+    position:absolute;
+}
+.clickLeftBlog{
+    margin-left: 1287px;
+    height: 30px;
+    
+    width:30px;
+    border-radius:15px;
+    background-color: #ffffff;
+    box-shadow: 0.5, 0.5 , 0.5 black;
+}
+
+.meusProdutos{
+
+}
+.nossoBlog{
+    width: 333px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 32px;
+    color:#4D4D4D;
+    margin-left: 120px;
+    margin-top: 88px;
+    margin-bottom: 11px;
+}
+.clickRightBlog{
+    margin-left: -1200px;
+    height: 29px;
+    width:29px;
+    border-radius:14px;
+    background-color: #ffffff;
+    box-shadow: 0.5, 0.5 , 0.5 black;
+
+}
+
+.imagemBlog{
+    min-width: 281px;
+    height: 180px;
+    margin-left: 35px;
+    background-image: url('../../assets/image44.png');
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.imagemBlog2{
+    min-width: 281px;
+    height: 180px;
+    margin-left: 35px;
+    background-image: url('../../assets/image9.png');
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.imagemBlog3{
+    min-width: 281px;
+    height: 180px;
+    margin-left: 35px;
+    background-image: url('../../assets/Rectangle63.png');
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.imagemBlog4{
+    min-width: 281px;
+    height: 180px;
+    margin-left: 35px;
+    background-image: url('../../assets/image24.png');
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.btnImg{
+    min-width: 100px;
+    height: 40px;
+    font-weight: 700;
+    color: #FBB900;
+    background-color:#FEF6E7;
+    padding: 10px;
+    font-size: 14px;
+    border-radius:10px;
+    margin-top: -185px;
+    margin-left: -15px;
+   
+    display: flex;
+    cursor: pointer;
+}
+
+.heartCard{
+    min-width:25px;
+    height: 22px;
+    color:#9F9F9F;
+    border: 2px;
+    margin-left: 130px;
+    margin-top: -185px !important;
+  
+    cursor: pointer;
+}
+
+.extensoes{
+    display: flex;
+}
+
+.produtoApiBlog{
+    font-size: 14px;
+    font-weight: 400;
+    width: 229px;
+    margin-left: 30px;
+    margin-top: 16px;
+    height: 63px;
+    color:#9F9F9F;
+   text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnBlog{
+    width:153px;
+    height: 48px;
+    background-color: #FBB900;
+    color: white;
+    border: 1px solid #F0D075;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    cursor: pointer;
+
+}
+
+.meuspanBlog{
+    width: 277px;
+    height: 259px;
+    background-color: #FEF6E7;
+    margin-left: 35px;
+    text-align: center;
+    margin-top: -20px;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+.lorem1{
+    width: 229px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4D4D4D;
+   
+
+}
+
+.loremIpsum{
+    
+
+}
+
+.PriceCortado{
+    font-weight: 400;
+    font-size: 16px;
+    color:#9F9F9F;
+    text-decoration-line: line-through;
+   
+}
+
+.linhaCorte{
+    margin-top: 34px;
+    text-align: center;
+}
+
+.priceOrigin{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4D4D4D;
+
+}
+
+.PriceAtual{
+    margin-top: 5px;
+    text-align: center;
+ 
+}
+
+.desconto{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FBB900;
+}
+
+.priceDescont{
+    text-align: center;
+}
+
+.assinantes{
+    font-weight: 600;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+.priceAssinantes{
+    text-align: center;
+}
+
+.btnComprar{
+    width: 220px;
+    height: 48px;
+    background-color: #FBB900;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.ligth{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 16px;
+   
+}
+
+.visualizarMais{
+    text-align: center;
+    margin-top: 32px;
+}
+.vMais{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.slider-pointerBlog{
+    width: 100vw;
+    height: 15px;
+   
+    position: absolute;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer{
+    width: 12px;
+    height: 12px;
+    border: 2px solid #9F9F9F;
+    border-radius: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.carousel{
+   overflow: auto;
+}
+.pointer.active{
+    background-color: #9F9F9F;
+}
+@media screen and (max-width:600px) {
+    .mbotesBlog{display: none;}
+    .vMais{
+        margin-left: 63px;
+    }
+    .carousel{
+        overflow-x: hidden;
+        
+    }
+
+    .meuCardBlog{
+        margin-left: -50px;
+        border-radius: 20px 25px 0px 0px;
+        max-width: 230px;
+        
+    }
+    .btnImg{
+        display: none;
+    }
+    .btnComprar{
+        margin-left: 24px;
+    }
+
+    .nossoBlog{
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    .meusCardsBlog{
+        flex-direction: column;
+    }
+
+}

@@ -3,13 +3,12 @@
     
 }
 .parceirosDireita{
-    background-color: red;
+   
     width: 100%;
    
 }
 
 .parceirosEsquerda{
-    background-color: blue;
     width:740px;
     height: 503px;
 }
@@ -20,7 +19,7 @@
     background-image: url(../../assets/image45.png);
     border-radius: 20px;
     margin-top: 130px;
-    margin-left: 130px;
+    margin-left: 62px;
 }
 
 .efeito{
@@ -37,6 +36,7 @@ height: 284px;
 
 .paceirosNome{
     color: #ffff;
+    margin-left: -63px;
 }
 
 .loremParagro{
@@ -45,6 +45,8 @@ height: 284px;
     font-weight: 400;
     font-size: 16px;
     color: #ffffff;
+    margin-left: -63px;
+
 }
 
 .btnPropiedades{
@@ -59,15 +61,16 @@ height: 284px;
     padding: 10px;
     margin-top: 32px;
     cursor: pointer;
+    margin-left: -63px;
 }
 
 .meuEfeito{
-    max-width: 480px;
+    width: 510px;
     height: 80px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 105.04%);
     margin-top: -36px;
     border-radius: 10px;
-    margin-left: -35px;
+    margin-left: -102px;
 }
 
 .slider-pointerParceiros{
@@ -97,9 +100,92 @@ height: 284px;
     height: 350px;
     background-color: #FEF6E7;
     border-radius: 20px 0px 0px 20px;
+    margin-left: 37px;
+    margin-top: 130px;
+    display: flex ;
+}
+
+.caoselheiro{
+    font-weight: 700;
+    font-size: 32px;
+    color: #4D4D4D;
+    width: 199px;
+    height: 96px;
+    margin-top: 46px;
+    margin-left: 40px;
+}
+
+.paragrafoCaoselheiro{
+    font-weight: 400px;
+    font-size: 16px;
+    color:#9F9F9F;
+    width: 295px;
+    height: 72px;
+    margin-left: 40px;
+}
+
+.btnCaoselheiro{
+    width: 156px;
+    height: 48px;
+    background-color: #FBB900;
+    color: #ffffff;
+    border: 1px solid #F0D075;
+    border-radius: 10px;
+    margin-left: 40px;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+    margin-top: 37px;
+    cursor:pointer;
+}
+
+.imagemVasada{
+    margin-top: -25px;
+    margin-left: 54px;
 }
 
 @media screen and (max-width:600px) {
     .slider-pointerParceiros{display: none;}
+    .parceiros{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagemVasada{
+        display: none;
+    }
+    .textoEsquerda{
+        max-width: 100px;
+       
+      
+    }
+    .retanguloImg{
+        max-width: 230px;
+       
+    }
+    .meuEfeito{
+        max-width: 230px;
+        
+    }
+
+    .parceirosEsquerda{
+        width:230px;
+        height: 503px;
+        margin-left: -55px;
+    }
+
+    .parceirosDireita{
+        width:230px
+    }
+    .retanguloPrincipal{
+        width: 250px;
+        margin-left: -10px;
+    }
+    .paragrafoCaoselheiro{
+        width: 220px;
+      margin-left: -55;
+    }
+    .parceiros{
+        overflow-x: hidden;
+    }
 
 }
