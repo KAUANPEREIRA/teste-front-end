@@ -1,0 +1,317 @@
+.footer{
+    width: 100%;
+    height: 610px;
+    background-color:#FBB900;
+   
+
+}
+
+.conteudoFooter{
+    
+    
+    margin-left: 63px;
+    width: 1280px;
+    display: flex;
+    
+}
+
+.sigaNos{
+    width: 319px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 48px;
+    margin-left: 85px;
+}
+
+.redeSociais{
+    color:white;
+    margin-left: 135px;
+    margin-top: 32px;
+   
+}
+
+.iconsSocialxs{
+    margin-left: 37px;
+}
+
+.sobreO{
+    width: 250px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffff;
+    margin-left: 113px;
+    margin-top: 56px;
+}
+
+.paragrafoFooter{
+    width: 339px;
+    height: 252px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #ffff;
+    margin-left: 83px;
+    margin-top: 24px;
+    margin-bottom: 62px;
+}
+
+.espacoFooter{
+   margin-bottom: 24px;
+   color: #FBB900;
+}
+
+.footerDireita{
+    width: 791px;
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.footerEsquerda{
+    width: 489px;
+}
+.assinatura{
+    width: 129px;
+    margin-top: 56px;
+    margin-left: 56px;
+}
+
+.textoAssinatura{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+    height: 30px;
+}
+
+.textoParceiros{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.linhaDivisoriaFooter{
+    width: 1px;
+   
+    background-color: #fff;
+    height: 610px;
+    color: black;
+ 
+}
+
+.footerDireita{
+    display: flex;
+}
+.anuncios{
+    width: 770px;
+
+    display: flex;
+}
+
+.textoInstitucional{
+    width: 152px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 55px;
+    color: #fff;
+    margin-left: 72px;
+}
+
+.listaFooter{
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.liFooter{
+    font-size: 14px;
+    color: #ffff;
+    margin-bottom: 15px;
+    font-weight: 500;
+    height: 21px;
+}
+    
+footer ul li {
+    font-weight: 500;
+}
+
+.textoAtendimento{
+    width: 152px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 55px;
+    color: #fff;
+    margin-left: 72px;
+}
+.foneFooter{
+    color: white;
+    margin-right: 6px;
+
+}
+
+footer ul{
+    font-weight: 500;
+}
+
+.formaFooter{
+    margin-left: 46px;
+    margin-top: 31px;
+    height: 30px;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.cartaoVisa{
+    width: 66px;
+    height: 38px;
+    background-color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visa{
+    color: #4D4D4D;
+    font-size: 40px;
+    
+}
+
+.mastecard{
+    color: #4D4D4D;
+    font-size: 50px;
+    
+    
+
+}
+
+h6{
+    color:#4D4D4D;
+    font-size: 6px;
+    margin-top: 0px;
+
+}
+
+.linha1Footer{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 24px;
+
+}
+
+
+.linha2Footer{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 24px;
+
+}
+
+.segurancafoter{
+    font-weight: 700;
+    color: #ffff;
+    font-size: 20px;
+
+}
+
+.formasPagamentos{
+    display: flex;
+    
+
+}
+
+.segurancaFooter{
+    margin-left: 178px;
+    margin-top: 37px;
+}
+.img830{
+    margin-top: 24px;
+}
+
+.linhaDeitada{
+    height: 1px;
+   background-color:#ffff;
+    width: 812px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+
+.img826{
+    margin-left: 45px;
+}
+
+.final{
+    display: flex;
+    justify-content: space-between;
+}
+
+.finalFooter{
+    width: 200px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffff;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+.ecconverse{
+    margin-right: 55px;
+}
+
+@media screen and (max-width:600px) {
+
+    .footerDireita{
+        display: none;
+    }
+    .footer{
+        min-width: 400px;
+        margin-left: 0px;
+        overflow: auto;
+    }
+
+    .footerEsquerda{
+        margin-left: -200px;
+    }
+
+    .linhaDivisoriaFooter{
+        display: none;
+    }
+    .sigaNos{
+        margin-left: 150px;
+    }
+    .redeSociais{
+        margin-left: 198px;
+    }
+    .sobreO{
+        margin-left: 190px;
+    }
+    .paragrafoFooter{
+        margin-left: 160px;
+    }
+}
+
+
+
+
+
+
+
+

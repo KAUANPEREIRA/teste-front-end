@@ -210,4 +210,9 @@
         margin-left: 24px;
     }
 
+    .meusCards{
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
 }

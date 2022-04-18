@@ -11,7 +11,7 @@ const Categorias = () => {
   return (
     <section className='categorias container'> 
         <h1 className='titleCategorias'>Categorias</h1>
-        <div className='meusCards'>
+        <div className='meusCardsCategorias'>
             <div className='card'>
                 <img className="cardImg" src={IMG40} />
                 <span className='cardNome'>Brinquedos</span>

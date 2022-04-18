@@ -13,6 +13,11 @@
     
 }
 
+::-webkit-scrollbar{
+    display: none;
+
+}
+
 .banner .sliders{
 width: 100vw;
 height: 100%;
@@ -150,10 +155,12 @@ height: 100%;
   /*----- media queries celulares -----*/
   @media screen and (max-width:600px) {
 
-    .banner{
-        
+    .banner {
+        width: 400px;
 
             }
+
+    
     
 
     .banner .slide{
@@ -185,8 +192,11 @@ height: 100%;
     }
 
     .slidearea{
+        width: inherit;
         overflow: auto;
+        
     }
+  
 
     .btnNave{
         margin-left: -5px;
@@ -194,8 +204,7 @@ height: 100%;
     .slider-setas{
         display: none;
     }
-
-  
+   
   }
   
 

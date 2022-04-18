@@ -110,7 +110,7 @@ margin-top: 90px;
 .meusCaes{
     max-width: 300px;
    overflow-x: hidden;
-   display: flex;
+   display: none;
    justify-content: center;
    align-items: center;
 }

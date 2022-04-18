@@ -1,0 +1,178 @@
+.meuCardContato{
+    width:772px;
+    height: 346px;
+    background-color: #FEF6E7;
+    border-radius: 20px;
+}
+
+.inscrever{
+    width: 319px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #4D4D4D;
+    margin-top: 80px;
+    margin-bottom: 24px;
+    
+}
+
+.textoInscrever{
+    width: 319px;
+    height: 72px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ 
+
+}
+
+.inputEmail input{
+    font-family: "Poppins", sans-serif ;
+
+}
+
+.inputEmail{
+    width: 343px;
+    height: 48px;
+    background-color: #ffff;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.inputSenha{
+    width: 343px;
+    height: 48px;
+    background-color: #ffff;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    display: flex;
+}
+
+.userEmoji{
+    font-size: 32px;
+    color: #9F9F9F;
+    border: 2px;
+    margin-left: 27px;
+    margin-top: 5px;
+    margin-right: 31px;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.senhaEmoji{
+    font-size: 32px;
+    color: #9F9F9F;
+    border: 2px;
+    margin-left: 27px;
+    margin-top: 5px;
+    margin-right: 31px;
+
+}
+
+.inputSenha input{
+    font-family: "Poppins", sans-serif ;
+
+}
+
+.meuCardContato{
+    margin: auto;
+    margin-top: 184px;
+}
+
+.imagemCao{
+    margin-top: -330px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnEnviarContato{
+    width: 145px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FBB900;
+    color: #ffff;
+    border: 1px solid #F0D075;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 320px;
+    margin-top: 260px;
+}
+.entreEmContato{
+    margin-bottom: 87px;
+}
+
+@media screen and (max-width:600px) {
+
+    .meuCardContato{
+        width: 230px;
+    }
+    .login{
+        width: 230px;
+        margin-top: 68px;
+      
+        
+        
+    }
+    .inputEmail{
+        width: 220px;
+       
+        
+    }
+     input{
+         width: 100px;
+         margin-left: -20px;
+         font-size: 12px;
+     }
+     .inputSenha{
+        width: 220px;
+        
+    }
+
+    .btnEnviarContato{
+        margin-left: 40px;
+    }
+    .textoInscrever{
+        width: 200px;
+        
+        text-align: center;
+        height: 15px;
+        
+        
+
+    }
+    .inscrever{
+        font-size: 12px;
+        height: 10px;
+        margin-bottom: 20px !important;
+        
+    }
+    .meuCardContato{
+        height: 300px;
+    }
+
+    .btnEnviarContato{
+       margin-top:210px;
+        margin-bottom: 10px;
+    }
+    .imagemCao{
+        margin-top: -294px;
+    }
+}
