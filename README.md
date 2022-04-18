@@ -1,5 +1,5 @@
 # teste-front-end
-Para testar o projeto localmente
+Para testar o projeto localmente<br>
 1-No terminal do projeto utilizar o comando "npm install" para os pacotes do projeto
 2- Será necessário abrir 2 terminais dentro do projeto
 3- No primeiro terminal utilizar o comando "npm run backend" 
