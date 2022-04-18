@@ -204,6 +204,15 @@ height: 100%;
     .slider-setas{
         display: none;
     }
+
+    .banner .slide{
+        height: 100%;
+        width: 100vw;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0);
+       
+       
+    }
    
   }
   
