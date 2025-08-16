@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Tecnologia",
+    "icon": "tecnologia.png",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Supermercado",
+    "icon": "supermercado.png",
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "Bebidas",
+    "icon": "bebidas.png",
+    "active": false
+  },
+  {
+    "id": 4,
+    "name": "Ferramentas",
+    "icon": "ferramentas.png",
+    "active": false
+  },
+  {
+    "id": 5,
+    "name": "Saúde",
+    "icon": "saude.png",
+    "active": false
+  },
+  {
+    "id": 6,
+    "name": "Esportes e Fitness",
+    "icon": "esporte-fitness.png",
+    "active": false
+  },
+  {
+    "id": 7,
+    "name": "Moda",
+    "icon": "moda.png",
+    "active": false
+  }
+]

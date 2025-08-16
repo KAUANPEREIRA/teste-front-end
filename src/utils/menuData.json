@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "TODAS CATEGORIAS",
+      "slug": "todas-categorias",
+      "icon": "todas-categorias.png"
+    },
+    {
+      "id": 2,
+      "name": "supermercado",
+      "slug": "supermercado",
+      "icon": "supermercado.png"
+    },
+    {
+      "id": 3,
+      "name": "livros",
+      "slug": "livros",
+      "icon": "livros.png"
+    },
+    {
+      "id": 4,
+      "name": "moda",
+      "slug": "moda",
+      "icon": "moda.png"
+    },
+    {
+      "id": 5,
+      "name": "lançamentos",
+      "slug": "lancamentos",
+      "icon": "lancamentos.png"
+    },
+    {
+      "id": 6,
+      "name": "ofertas do dia",
+      "slug": "ofertas-do-dia",
+      "icon": "ofertas-do-dia.png"
+    },
+    {
+      "id": 7,
+      "name": "assinatura",
+      "slug": "assinatura",
+      "icon": "assinatura.png"
+    }
+  ]
+}

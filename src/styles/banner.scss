@@ -1,0 +1,57 @@
+.banner {
+  width: 100%;
+  height: 400px;
+  background: url('../img/banner.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  padding: 0 2rem;
+  color: #fff;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); // efeito escurecido
+  }
+
+  &__content {
+    position: relative;
+    max-width: 500px;
+    z-index: 1;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      font-weight: 400;
+
+      .highlight {
+        font-weight: bold;
+        color: #FFD700;
+      }
+    }
+
+    .btn {
+      background-color: #FFD700;
+      color: #000;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s ease;
+
+      &:hover {
+        background-color: #ffcc00;
+      }
+    }
+  }
+}
