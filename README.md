@@ -18,7 +18,7 @@ Clone o repositório e instale as dependências:
 
 ```bash
 git clone https://github.com/seuusuario/teste-front-end.git
-cd projeto-teste
+cd teste-front-end
 npm install - instalar as depêndecias do projeto
 
 npm start - rodar o projeto
