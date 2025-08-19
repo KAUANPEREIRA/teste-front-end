@@ -17,7 +17,7 @@ Este projeto foi desenvolvido como parte de um teste técnico para vaga de Front
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/seuusuario/projeto-teste.git
+git clone https://github.com/seuusuario/teste-front-end.git
 cd projeto-teste
 npm install - instalar as depêndecias do projeto
 
