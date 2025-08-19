@@ -1,0 +1,41 @@
+@import './variables';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-base;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  
+
+  @media (min-width: $sm) {
+    max-width: 540px;
+  }
+
+  @media (min-width: $md) {
+    max-width: 720px;
+  }
+
+  @media (min-width: $lg) {
+    max-width: 960px;
+  }
+
+  @media (min-width: $xl) {
+    max-width: 1140px;
+  }
+}
+.d-flex{
+    display: flex;
+    
+}
+.flex-column{
+    flex-direction: column;
+}

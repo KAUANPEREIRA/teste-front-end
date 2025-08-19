@@ -1,0 +1,81 @@
+.newsletter {
+  background-color: #291c48;
+  padding: 2rem;
+  color: #fff;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 6fr 6fr; // col-6 e col-6
+    gap: 2rem;
+    align-items: start;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr; // no mobile fica empilhado
+    }
+  }
+
+  &__texts {
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      text-align: start;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #ccc;
+      text-align: start;
+    }
+  }
+
+  &__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto; // input nome | input email | botão
+    gap: 0.5rem;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr; // no mobile fica 1 embaixo do outro
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      padding: 0.8rem 1rem;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+      font-size: 0.9rem;
+    }
+
+    button {
+      background: #f9c900;
+      color: #000;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      padding: 0.8rem 1.5rem;
+      cursor: pointer;
+      transition: 0.3s;
+      white-space: nowrap;
+
+      &:hover {
+        background: #e5b800;
+      }
+    }
+  }
+
+  &__checkbox {
+    grid-column: 1 / -1; // checkbox ocupa toda a largura
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #ccc;
+
+    input {
+      accent-color: #f9c900;
+    }
+  }
+}

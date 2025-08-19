@@ -1,40 +1,8 @@
-@import './variables';
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: $font-family-base;
-}
-
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-  
-
-  @media (min-width: $sm) {
-    max-width: 540px;
-  }
-
-  @media (min-width: $md) {
-    max-width: 720px;
-  }
-
-  @media (min-width: $lg) {
-    max-width: 960px;
-  }
-
-  @media (min-width: $xl) {
-    max-width: 1140px;
-  }
-}
 
 .topoHeader {
   height: 40px;
   background: #fff;
+  margin-bottom: 20px;
 }
 
 .topoItens{
@@ -75,6 +43,7 @@
     .logo-container {
       // Estilos para o container do logo
       img {
+        margin-top: 20px;
         max-height: 40px;
         width: auto;
       }
@@ -119,10 +88,15 @@
 }
 
 .category-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
     margin-top: 20px;
     border-top: 1px solid #e9ecef;
   padding: 1rem 0;
   border-bottom: 1px solid #e9ecef;
+
   
   .menu-list {
     display: flex;
@@ -157,6 +131,7 @@
   }
   
   @media (max-width: 992px) {
+
     overflow-x: auto;
     padding: 0.5rem 0;
     
@@ -187,4 +162,41 @@
       border-radius: 2px;
     }
   }
+}
+
+@media (max-width: 768px) {
+  .topoItens {
+    margin-top: 60px;
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center; // opcional, para centralizar
+    gap: 10px; // opcional, espaçamento entre itens
+  }
+
+  .search-container{
+    flex-direction: column;
+  }
+
+  .category-menu {
+  position: absolute !important; // ou fixed, se quiser que fique sempre visível ao rolar
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 1rem;
+  
+   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05), 
+              -2px 0 5px rgba(0, 0, 0, 0.05);
+  
+}
+
+.logo-container {
+     
+      img {
+        position: relative;
+        top: 20px;
+        margin-top: 40px !important;
+        max-height: 40px;
+        width: auto;
+      }
+    }
 }

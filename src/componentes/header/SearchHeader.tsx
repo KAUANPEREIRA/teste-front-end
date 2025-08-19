@@ -1,5 +1,5 @@
 import { FaSearch ,FaBox, FaHeart, FaUser, FaShoppingCart} from 'react-icons/fa';
-import logo from '../img/logo.webp';
+import logo from '../../img/logo.webp';
 
 const PesquisaSearch = FaSearch as React.ComponentType<React.SVGProps<SVGSVGElement>>;
 const Caixa = FaBox as React.ComponentType<React.SVGProps<SVGSVGElement>>;
@@ -32,10 +32,26 @@ export const SearchHeader = () => {
         </div>
         
         <div className="cart-container">
-          <Caixa style={{ color: "#9f9f9f", marginRight: "8px" }}/>
-          <Coracao style={{ color: "#9f9f9f", marginRight: "8px" }}/>
-          <User style={{ color: "#9f9f9f", marginRight: "8px" }}/>
-          <Cart style={{ color: "#9f9f9f", marginRight: "8px" }}/>
+         <img 
+            src="/icone-1.png" 
+            alt="Ícone 1" 
+            className="footer__icon"
+          />
+          <img 
+            src="/icone-2.png" 
+            alt="Ícone 2" 
+            className="footer__icon"
+          />
+          <img 
+            src="/icone-3.png" 
+            alt="Ícone 3" 
+            className="footer__icon"
+          />
+          <img 
+            src="/icone-4.png" 
+            alt="Ícone 4" 
+            className="footer__icon"
+          />
         </div>
       </div>
     </div>

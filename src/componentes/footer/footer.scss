@@ -1,0 +1,128 @@
+// Variáveis
+$grid-gap: 2rem;
+$footer-bg: #f8f9fa;
+$text-color: #333;
+$primary-color: #007bff;
+
+.footer__links-title{
+  color: rgba(34, 34, 34, 0.71) !important;
+}
+
+.footer {
+  background: $footer-bg;
+  padding: 3rem 0;
+  color: $text-color;
+
+
+  &__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $grid-gap;
+  }
+
+  // Coluna da Marca (col-4)
+  &__brand-col {
+    flex: 0 0 100%;
+    
+    @media (min-width: 768px) {
+      flex: 0 0 calc(33.333% - #{$grid-gap});
+    }
+  }
+
+  // Coluna dos Links (col-8)
+  &__links-col {
+    flex: 0 0 100%;
+    
+    @media (min-width: 768px) {
+      flex: 0 0 calc(66.666% - #{$grid-gap});
+    }
+  }
+
+  &__links-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $grid-gap;
+  }
+
+  &__links-column {
+    flex: 1 1 100%;
+    
+    @media (min-width: 576px) {
+      flex: 1 1 calc(50% - #{$grid-gap});
+    }
+    
+    @media (min-width: 992px) {
+      flex: 1 1 calc(33.333% - #{$grid-gap});
+    }
+  }
+
+  // Estilos específicos
+  &__logo {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  &__brand-text {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  &__channels-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: darken($text-color, 15%);
+  }
+
+  &__links-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: darken($text-color, 20%);
+    text-align: start;
+  }
+
+  &__links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+  }
+
+  &__link {
+    color: $text-color;
+    text-decoration: none;
+    display: block;
+    padding: 0.3rem 0;
+    transition: color 0.3s;
+    text-align: start;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &__divider {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+  }
+
+  &__copyright {
+    text-align: center;
+    font-size: 0.9rem;
+    color: lighten($text-color, 20%);
+    background-color: #fff;
+  }
+}
+
+.footer__brand-text{
+  text-align: start;
+}

@@ -1,7 +1,7 @@
 .banner {
   width: 100%;
   height: 400px;
-  background: url('../img/banner.jpg') center/cover no-repeat;
+  background: url('../../img/banner.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   text-align: start;
@@ -52,6 +52,49 @@
       &:hover {
         background-color: #ffcc00;
       }
+    }
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .banner__content {
+    h1 {
+      font-size: 2.2rem; /* menor que 3rem */
+    }
+
+    p {
+      font-size: 1.5rem; /* menor que 2rem */
+    }
+
+    .btn {
+      font-size: 0.9rem; /* menor que 1rem */
+      padding: 0.7rem 1.2rem;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .banner {
+    height: 300px; /* opcional, reduzir altura do banner */
+    padding: 0 1rem;
+  }
+
+  .banner__content {
+    max-width: 90%; /* ocupa mais espaço no mobile */
+
+    h1 {
+      font-size: 1.6rem; /* menor ainda */
+    }
+
+    p {
+      font-size: 1.2rem; 
+    }
+
+    .btn {
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
     }
   }
 }

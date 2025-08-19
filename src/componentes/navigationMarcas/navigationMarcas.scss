@@ -1,0 +1,44 @@
+.marcas-wrapper {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  .marcas-title {
+    font-size: 1.8rem;
+    color: #3442B5;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .marcas-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 8px;
+    padding: 1rem 0;
+
+    .marca-logo {
+      width: 100%;
+      object-fit: contain;
+      transition: all 0.3s ease;
+
+      &:hover {
+        filter: none;
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+/* Tablet: 2 por linha */
+@media (max-width: 1024px) {
+  .marcas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .marcas-grid {
+    grid-template-columns: 1fr;
+  }
+}
