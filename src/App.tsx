@@ -1,5 +1,6 @@
 import "./App.css";
 import { Banner } from "./components/Banner/Banner";
+import { CategoryNav } from "./components/Categorias/CategoryNav";
 import { Header } from "./components/Header/Header";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         imageSrc="/banner-econverse.webp"
         imageAlt="Vitrine de loja decorada com neon escrito Black Friday, anunciando promoções de até 50% de desconto"
       />
+      <CategoryNav />
     </>
   );
 }
