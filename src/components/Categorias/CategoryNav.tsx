@@ -51,9 +51,9 @@ export function CategoryNav({
   return (
     <nav
       aria-label="Categorias"
-      className="w-full bg-white mx-auto py-8 md:px-16"
+      className="w-full bg-white mx-auto pt-12 md:px-16 "
     >
-      <ul className="flex items-start justify-center gap-3 overflow-x-auto md:gap-6">
+      <ul className="grid grid-cols-4 px-6 gap-3 md:flex md:items-start md:justify-center md:gap-6">
         {categories.map(({ id, label, icon }) => {
           const isActive = id === activeId;
 
@@ -63,10 +63,10 @@ export function CategoryNav({
                 type="button"
                 onClick={() => handleSelect(id)}
                 aria-pressed={isActive}
-                className="group flex w-20 flex-col items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 md:w-24"
+                className="group flex w-16 flex-col items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 md:w-24"
               >
                 <span
-                  className={`flex h-32 w-32 items-center justify-center rounded-xl border transition-colors md:h-[100px] md:w-[100px] ${
+                  className={`flex h-16 w-16 items-center justify-center rounded-xl border transition-colors md:h-[100px] md:w-[100px] ${
                     isActive
                       ? "border-blue-600 bg-blue-50"
                       : "border-transparent bg-neutral-100 group-hover:bg-neutral-200"

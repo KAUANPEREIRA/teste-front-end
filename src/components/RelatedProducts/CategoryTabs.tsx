@@ -22,7 +22,7 @@ export function CategoryTabs({ activeTab, onTabChange }: CategoryTabsProps) {
     <div
       role="tablist"
       aria-label="Categorias de produtos relacionados"
-      className="flex border-b border-neutral-200 text-xs font-semibold uppercase tracking-wide text-neutral-500 md:text-sm"
+      className="flex overflow-x-auto border-b border-neutral-200 text-xs font-semibold uppercase tracking-wide text-neutral-500 md:text-sm"
     >
       {TABS.map((tab) => {
         const isActive = tab.id === activeTab;
@@ -34,7 +34,7 @@ export function CategoryTabs({ activeTab, onTabChange }: CategoryTabsProps) {
             role="tab"
             aria-selected={isActive}
             onClick={() => onTabChange(tab.id)}
-            className={`flex-1 border-b-2 px-2 py-3 transition-colors ${
+            className={`shrink-0 md:flex-1 border-b-2 px-3 py-3 transition-colors whitespace-nowrap ${
               isActive
                 ? "border-blue-700 text-blue-700"
                 : "border-transparent hover:text-neutral-700"

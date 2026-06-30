@@ -18,7 +18,7 @@ export function Banner({
   return (
     <section
       aria-label="Banner promocional"
-      className="relative w-full overflow-hidden"
+      className="relative w-full overflow-hidden min-h-[220px] md:min-h-0"
     >
       <img
         src={imageSrc}
@@ -26,18 +26,17 @@ export function Banner({
         width={1920}
         height={300}
         loading="lazy"
-        className="h-auto w-full object-cover"
+        className="h-full min-h-[220px] w-full object-cover md:h-auto md:min-h-0"
       />
 
-      {/* Overlay escuro */}
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="absolute inset-0 flex flex-col justify-center gap-3 px-8 md:px-16">
         <div className="flex flex-col gap-0">
-          <h1 className="text-5xl font-semibold leading-[50px] tracking-normal !text-[#fff] text-start max-w-2xl">
+          <h1 className="text-xl md:text-5xl font-semibold md:leading-[50px] tracking-normal !text-white text-start max-w-2xl">
             {title}
           </h1>
-          <p className="text-3xl font-semibold text-start text-[#fff]">
+          <p className="text-base md:text-3xl font-semibold text-start !text-white">
             <span style={{ color: "#F7CA11" }}>{highlight}</span> nos produtos
           </p>
         </div>
