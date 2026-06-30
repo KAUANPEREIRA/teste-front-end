@@ -13,7 +13,9 @@ export function NavBar() {
   return (
     <nav
       aria-label="Navegação principal"
-      className="relative z-10 border-t border-b border-neutral-200 shadow-sm text-[#9F9F9F]"
+      className="relative z-10 border-t border-b border-neutral-200 shadow-sm text-[#9F9F9F]
+      max-w-[1280px] mx-auto
+      "
     >
       <ul className="flex items-center justify-between px-4 py-3 text-xs font-medium uppercase tracking-wide text-[#9F9F9F]">
         {categories.map((category) => (

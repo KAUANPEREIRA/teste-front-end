@@ -6,7 +6,7 @@ const announcements = [
 
 export function TopBar() {
   return (
-    <div className="text-[#9F9F9F] text-xs border-b border-[#F0F0F0]">
+    <div className="text-[#9F9F9F] text-xs border-b border-[#F0F0F0] max-w-[1280px] mx-auto">
       <ul className="flex items-center justify-center gap-8 py-1.5">
         {announcements.map((item) => (
           <li key={item.id}>

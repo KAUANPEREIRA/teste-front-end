@@ -1,13 +1,13 @@
 import { CartIcon } from "../icons/CartIcon";
 import { HeartIcon } from "../icons/HeartIcon";
 import { SearchIcon } from "../icons/SearchIcon";
-import { SettingsIcon } from "../icons/SettingsIcon";
+
 import { TicketIcon } from "../icons/TicketIcon";
 import { UserIcon } from "../icons/UserIcon";
 
 export function MainBar() {
   return (
-    <div className="flex justify-between gap-6 px-4 py-4">
+    <div className="flex justify-between gap-6 px-4 py-4 max-w-[1280px] mx-auto">
       <a href="/" className="shrink-0">
         <img
           src="/logo.webp"

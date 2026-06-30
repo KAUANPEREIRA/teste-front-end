@@ -5,7 +5,7 @@ import { NavBar } from "./NavBar";
 
 export function Header() {
   return (
-    <header>
+    <header className="sticky top-0 z-50 bg-white">
       <TopBar />
       <MainBar />
       <NavBar />
