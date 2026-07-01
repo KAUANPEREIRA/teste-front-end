@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import type { Product } from "../../types/product";
 import { formatCurrency } from "../../lib/currency";
-import { useToast } from "../newsletter/useToast";
-import { Toast } from "../newsletter/Toast";
+import { useToast } from "../NewsLetter/useToast";
+import { Toast } from "../NewsLetter/Toast";
 
 type ProductModalProps = {
   product: Product | null;
