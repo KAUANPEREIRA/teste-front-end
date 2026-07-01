@@ -4,25 +4,25 @@ export const LINK_GROUPS: FooterLinkGroup[] = [
   {
     title: "Institucional",
     links: [
-      { label: "Sobre Nós", href: "/sobre" },
-      { label: "Movimento", href: "/movimento" },
-      { label: "Trabalhe conosco", href: "/carreiras" },
+      { label: "Sobre Nós", href: "#" },
+      { label: "Movimento", href: "#" },
+      { label: "Trabalhe conosco", href: "#" },
     ],
   },
   {
     title: "Ajuda",
     links: [
-      { label: "Suporte", href: "/suporte" },
-      { label: "Fale Conosco", href: "/contato" },
-      { label: "Perguntas Frequentes", href: "/faq" },
+      { label: "Suporte", href: "#" },
+      { label: "Fale Conosco", href: "#" },
+      { label: "Perguntas Frequentes", href: "#" },
     ],
   },
   {
     title: "Termos",
     links: [
-      { label: "Termos e Condições", href: "/termos" },
-      { label: "Política de Privacidade", href: "/privacidade" },
-      { label: "Troca e Devolução", href: "/troca-e-devolucao" },
+      { label: "Termos e Condições", href: "#" },
+      { label: "Política de Privacidade", href: "#" },
+      { label: "Troca e Devolução", href: "#" },
     ],
   },
 ];
