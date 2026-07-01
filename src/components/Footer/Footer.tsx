@@ -21,7 +21,12 @@ export function Footer() {
         <div className="flex flex-col md:flex-row gap-10 md:gap-0">
           <div className="md:w-1/3 md:pr-10 flex flex-col gap-4">
             <a href="/" aria-label="Página inicial">
-              <img src={LOGO_SRC} alt="Econverse" className="h-9 w-auto" />
+              <img
+                src={LOGO_SRC}
+                alt="Econverse"
+                className="h-9 w-auto"
+                fetchPriority="high"
+              />
             </a>
 
             <p className="text-sm text-gray-500 max-w-xs text-start">

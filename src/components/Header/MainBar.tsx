@@ -8,9 +8,17 @@ import { MobileMenu } from "./MobileMenu";
 
 function HamburgerIcon() {
   return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-      stroke="currentColor" strokeWidth="2" strokeLinecap="round"
-      strokeLinejoin="round" aria-hidden="true">
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
       <line x1="3" y1="6" x2="21" y2="6" />
       <line x1="3" y1="12" x2="21" y2="12" />
       <line x1="3" y1="18" x2="21" y2="18" />
@@ -42,6 +50,7 @@ export function MainBar() {
             alt="Econverse"
             className="h-8 w-auto"
             fetchPriority="high"
+            rel="preload"
           />
         </a>
 
@@ -69,7 +78,11 @@ export function MainBar() {
           <button type="button" aria-label="Cupons" className="hidden md:flex">
             <TicketIcon className="h-5 w-5" />
           </button>
-          <button type="button" aria-label="Favoritos" className="hidden md:flex">
+          <button
+            type="button"
+            aria-label="Favoritos"
+            className="hidden md:flex"
+          >
             <HeartIcon className="h-5 w-5" />
           </button>
 
