@@ -26,6 +26,8 @@ export function Footer() {
                 alt="Econverse"
                 className="h-9 w-auto"
                 fetchPriority="high"
+                width={139}
+                height={42}
               />
             </a>
 

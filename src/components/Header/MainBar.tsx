@@ -43,7 +43,6 @@ export function MainBar() {
           <HamburgerIcon />
         </button>
 
-        {/* Logo */}
         <a href="/" className="shrink-0">
           <img
             src="/logo.webp"
@@ -51,10 +50,11 @@ export function MainBar() {
             className="h-8 w-auto"
             fetchPriority="high"
             rel="preload"
+            width={139}
+            height={42}
           />
         </a>
 
-        {/* Busca — só desktop */}
         <div className="relative hidden md:block w-[630px]">
           <input
             type="text"

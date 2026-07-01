@@ -24,8 +24,8 @@ export function Banner({
         src={imageSrc}
         alt={imageAlt}
         rel="preload"
-        width={1920}
-        height={300}
+        width={1440}
+        height={390}
         fetchPriority="high"
         className="h-full min-h-[220px] w-full object-cover md:h-auto md:min-h-0"
       />
