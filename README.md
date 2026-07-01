@@ -1,5 +1,9 @@
 # Teste Front-End Jr — Econverse
 
+## Demo
+
+[https://teste-front-end-one.vercel.app](https://teste-front-end-one.vercel.app)
+
 Vitrine de produtos desenvolvida em React + TypeScript + Tailwind CSS, consumindo API via proxy Vercel.
 
 ## Rodar o projeto
