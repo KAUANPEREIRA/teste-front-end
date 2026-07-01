@@ -22,7 +22,7 @@ export function CategoryTabs({ activeTab, onTabChange }: CategoryTabsProps) {
     <div
       role="tablist"
       aria-label="Categorias de produtos relacionados"
-      className="flex overflow-x-auto border-b border-neutral-200 text-xs font-semibold uppercase tracking-wide text-neutral-500 md:text-sm"
+      className="flex overflow-x-auto border-b border-neutral-200 text-xs font-semibold uppercase tracking-wide text-neutral-500 md:text-sm md:justify-center"
     >
       {TABS.map((tab) => {
         const isActive = tab.id === activeTab;
