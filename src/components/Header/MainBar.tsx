@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { CartIcon } from "../icons/CartIcon";
-import { HeartIcon } from "../icons/HeartIcon";
+
 import { SearchIcon } from "../icons/SearchIcon";
-import { TicketIcon } from "../icons/TicketIcon";
+
 import { UserIcon } from "../icons/UserIcon";
 import { MobileMenu } from "./MobileMenu";
 
