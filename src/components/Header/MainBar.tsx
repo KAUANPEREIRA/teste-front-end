@@ -76,14 +76,24 @@ export function MainBar() {
         <nav className="flex shrink-0 items-center gap-5 text-neutral-500">
           {/* Cupons e favoritos — só desktop */}
           <button type="button" aria-label="Cupons" className="hidden md:flex">
-            <TicketIcon className="h-5 w-5" />
+            <img
+              src="/ticket.webp"
+              alt="Ticket"
+              aria-hidden="true"
+              className="h-5 w-5 object-contain"
+            />
           </button>
           <button
             type="button"
             aria-label="Favoritos"
             className="hidden md:flex"
           >
-            <HeartIcon className="h-5 w-5" />
+            <img
+              src="/heart.webp"
+              alt="Favoritos"
+              aria-hidden="true"
+              className="h-5 w-5 object-contain"
+            />
           </button>
 
           {/* Conta e carrinho — sempre visíveis */}
