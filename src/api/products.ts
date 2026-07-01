@@ -2,30 +2,25 @@ import type { ApiProductsResponse, Product } from "../types/product";
 
 const PRODUCTS_ENDPOINT = "/api/produtos";
 
-export class FetchProductsError extends Error {
-  constructor(
-    message: string,
-    public readonly status?: number,
-  ) {
-    super(message);
-    this.name = "FetchProductsError";
-  }
+export interface FetchProductsError {
+  message: string;
+  status?: number;
 }
 
-/**
- * Busca a lista de produtos relacionados.
- *
- * Normaliza a resposta da API para o shape `Product`, adicionando um
- * `id` estável (a API não retorna identificador único), e valida o
- * campo `success` antes de confiar nos dados.
- */
+export function createFetchError(
+  message: string,
+  status?: number,
+): FetchProductsError {
+  return { message, status };
+}
+
 export async function fetchRelatedProducts(
   signal?: AbortSignal,
 ): Promise<Product[]> {
   const response = await fetch(PRODUCTS_ENDPOINT, { signal });
 
   if (!response.ok) {
-    throw new FetchProductsError(
+    throw createFetchError(
       `Falha ao buscar produtos (status ${response.status})`,
       response.status,
     );
@@ -34,7 +29,7 @@ export async function fetchRelatedProducts(
   const data: ApiProductsResponse = await response.json();
 
   if (!data.success || !Array.isArray(data.products)) {
-    throw new FetchProductsError("Resposta da API em formato inesperado");
+    throw createFetchError("Resposta da API em formato inesperado");
   }
 
   return data.products.map((product, index) => ({
